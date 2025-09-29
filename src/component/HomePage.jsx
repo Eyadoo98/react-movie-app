@@ -92,7 +92,7 @@ const HomePage = () => {
                     <h2>Trending Movies</h2>
                     <ul>
                         {trendingMovies.map((movie,index)=>(
-                            <Trending key={movie.id} movie={movie} index={index} />
+                            <Trending key={index} movie={movie} index={index} />
                         ))}
                     </ul>
                 </section>
